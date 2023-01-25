@@ -1,4 +1,18 @@
 {
+  "name": "Whirl",
+  "version": "1.0.0",
+  "description": "A game based Data Dao for filecoin",
+  "main": "hardhat.config.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx hardhat test",
+    "build": "hardhat compile",
+    "console": "hardhat console",
+    "fork": "npx hardhat node"
+  },
+  "repository": {
+    "type": "git"
+  },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
     "@ethersproject/providers": "^5.4.7",
@@ -15,5 +29,8 @@
     "hardhat-gas-reporter": "^1.0.8",
     "solidity-coverage": "^0.8.0",
     "typechain": "^8.1.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1"
   }
 }
